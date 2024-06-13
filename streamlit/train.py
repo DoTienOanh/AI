@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import uniform
 import pickle
 
-data = pd.read_csv('Downloads/heart.csv')
+data = pd.read_csv('heart.csv')
 print('Kích thước bộ dữ liệu là', data.shape)
 
 data.head()
